@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Add Personal</title>
+        <link rel="stylesheet" href="addPersonal.css">
+    </head>
+
+    <body>
+        <div class="box">
+	        <a class="button" href="#popup1">Add Personal</a>
+        </div>
+
+        <div id="popup1" class="overlay">
+	        <div class="popup">
+		        <a class="close" href="#">&times;</a>
+		        <div class="content">
+			        <label for="fname">First name:</label>
+                    <span>
+                        <input name="fname" id="fname" 
+                        type="text" placeholder="Enter your first name"/>
+                    </span>
+
+                    <br />
+                    <br />
+
+                    <label for="lname">Last name:</label>
+                    <span>
+                        <input name="lname" id="lname" 
+                        type="text" placeholder="Enter your last name"/>
+                    </span>
+                    <br />
+                    <br />
+                    <label for="email">Last name:</label>
+                    <span>
+                        <input name="email" id="email" 
+                        type="text" placeholder="Enter your e-mail address"/>
+                    </span>
+                    <br />
+                    <br />
+                    <label for="job">Choose job:</label>
+                    <select name="job" id="job">
+                        <option value="doctor">Doctor</option>
+                        <option value="nurse">Nurse</option>
+                    </select>
+                    <br />
+                    <br />
+
+                    <div class="box">
+                        <a class="button" href="#popup1">Add Personal</a>
+                    </div>
+
+		        </div>
+	        </div>
+        </div>
+    </body>
+</html>
